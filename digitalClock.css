@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Orbitron:wght@600&display=swap');
+
+
+body{
+    background: black;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.date{
+    font-family: Orbitron, sans-serif;
+    color: aqua;
+    font-size: 30pt;
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.clock{
+    font-family: Orbitron, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    
+    width: 100%;
+    text-align: center;
+
+    background-image: linear-gradient(180deg,
+        rgba(99, 253, 136, 1) 0%,
+        rgba(51, 197, 142, 1) 50%, 
+        rgba(39, 97, 116, 1) 100%
+    );
+}
+
+.coder{
+    font-size: 20px;
+    color: rgb(40, 231, 104);
+    text-align: right;
+}
